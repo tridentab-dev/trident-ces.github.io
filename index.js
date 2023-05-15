@@ -1,5 +1,5 @@
 
-  console.log("Content Test 0.23")
+  console.log("Content Test 0.24")
   console.log({ myShopify: Shopify.shop })
   if(Shopify.shop === '96818a-2.myshopify.com') {
 
@@ -422,13 +422,15 @@ class ContentTestLiveStyle {
 
   apply({ contentTest, urlPath }) {
     document.body.style.display='none'
+    console.log("Change BEGIN")
 
     contentTest.changes.forEach(elementChange => {
+      console.log("change_iterate")
       if (urlPath === elementChange.urlPath) {
         this.elementLiveStyle.apply({ elementChange })
       }
     })
-
+    console.log("Change END")
     // document.body.style.display='block'
   }
 }
