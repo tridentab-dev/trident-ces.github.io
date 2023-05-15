@@ -1,5 +1,5 @@
 
-  console.log("Content Test 0.26")
+  console.log("Content Test 0.27")
   console.log({ myShopify: Shopify.shop })
   document.body.style.display='none'
   if(Shopify.shop === '96818a-2.myshopify.com') {
@@ -431,8 +431,9 @@ class ContentTestLiveStyle {
       }
     })
     console.log("Change END")
-    setTimeout(() => {}, 1000)
-    document.body.style.display='block'
+    setTimeout(function() {
+      document.body.style.display='block'
+ }, 5000);
   }
 }
 
