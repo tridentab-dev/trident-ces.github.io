@@ -1,5 +1,5 @@
 
-  console.log("Content Test 0.22")
+  console.log("Content Test 0.23")
   console.log({ myShopify: Shopify.shop })
   if(Shopify.shop === '96818a-2.myshopify.com') {
 
@@ -429,7 +429,7 @@ class ContentTestLiveStyle {
       }
     })
 
-    document.body.style.display='block'
+    // document.body.style.display='block'
   }
 }
 
