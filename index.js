@@ -1,7 +1,7 @@
 
   console.log("Content Test 1.18.0")
   console.log(Shopify.shop)
-  console.log(domain)
+  console.log({ domain })
   const domainForContentTest = "{{ shop.permanent_domain }}"
   console.log({ domainForContentTest })
   if(domainForContentTest === '96818a-2.myshopify.com') {
