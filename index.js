@@ -1,5 +1,5 @@
 
-  console.log("Content Test 1.18.0")
+  console.log("Content Test 1.19.0")
   console.log({ myShopify: Shopify.shop })
   if(Shopify.shop === '96818a-2.myshopify.com') {
 
