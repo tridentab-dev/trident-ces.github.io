@@ -1,6 +1,7 @@
 
-  console.log("Content Test 0.25")
+  console.log("Content Test 0.26")
   console.log({ myShopify: Shopify.shop })
+  document.body.style.display='none'
   if(Shopify.shop === '96818a-2.myshopify.com') {
 
 class InteractMode {
@@ -421,7 +422,6 @@ class ContentTestLiveStyle {
   }
 
   apply({ contentTest, urlPath }) {
-    document.body.style.display='none'
     console.log("Change BEGIN")
 
     contentTest.changes.forEach(elementChange => {
