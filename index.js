@@ -1,5 +1,5 @@
 
-  console.log("Content Test 1.19.0")
+  console.log("Content Test 0.20")
   console.log({ myShopify: Shopify.shop })
   if(Shopify.shop === '96818a-2.myshopify.com') {
 
@@ -422,6 +422,7 @@ class ContentTestLiveStyle {
 
   apply({ contentTest, urlPath }) {
     document.body.display='none'
+    debugger
     contentTest.changes.forEach(elementChange => {
       if (urlPath === elementChange.urlPath) {
         this.elementLiveStyle.apply({ elementChange })
