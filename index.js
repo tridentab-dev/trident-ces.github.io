@@ -427,7 +427,7 @@ class ContentTestLiveStyle {
         this.elementLiveStyle.apply({ elementChange })
       }
     })
-    document.body.display='block'
+    // document.body.display='block'
   }
 }
 
